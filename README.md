@@ -15,9 +15,9 @@ Praktikum ini terdiri dari **9 modul** dengan berbagai aspek penting dalam Anali
 
 ✅ [NYC Taxi & Limousine Commission Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page): Data perjalanan taksi dari NYC
 
-🔹 Indikator: 
-    - Eksplorasi skala besar dengan AWS Athena menggunakan SQL query.
-    - Visualisasi distribusi data dalam S3 menggunakan EDA (Exploratory Data Analysis) melalui packaging python seperti pandas, seaborn, matplotlib, dan scipy.
+🔹 Indikator:
+- Eksplorasi skala besar dengan AWS Athena menggunakan SQL query.
+- Visualisasi distribusi data dalam S3 menggunakan EDA (Exploratory Data Analysis) melalui packaging python seperti pandas, seaborn, matplotlib, dan scipy.
 
 
 ### 📌 **Modul 2: Koleksi & Klasifikasi Data (Descriptive & Diagnostic Analytics)**
