@@ -12,6 +12,7 @@ Praktikum ini terdiri dari **9 modul** dengan berbagai aspek penting dalam Anali
 - Pengenalan alat dan platform Big Data
   
 🔹 Dataset Open-Source:
+
 ✅ [NYC Taxi & Limousine Commission Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page): Data perjalanan taksi dari NYC
 
 🔹 Indikator: 
@@ -25,9 +26,11 @@ Praktikum ini terdiri dari **9 modul** dengan berbagai aspek penting dalam Anali
 - Pengelolaan dataset besar menggunakan Python (Pandas)
 
 🔹 Dataset Open-Source:
+
 ✅ [BMKG API](https://data.bmkg.go.id/prakiraan-cuaca/): Data prakiraan cuaca real-time di Indonesia
 ✅ [BMKG API](https://data.bmkg.go.id/gempabumi/):Data kejadian gempabumi yang terjadi di seluruh wilayah Indonesia
 ✅ [OpenWeatherMap API](https://openweathermap.org/api): Data cuaca real-time
+
 🔹 Indikator:
   - Mengumpulkan dan mengklasifikasikan menggunakan Hadoop dan Hive
   - Melakukan eksplorasi dan klasifikasi data cuaca berdasarkan pola cuaca tertentu menggunakan metode statistik dasar dan visualisasi data (pandas dan matplotlib/seaborn)
@@ -38,11 +41,14 @@ Praktikum ini terdiri dari **9 modul** dengan berbagai aspek penting dalam Anali
 - Manajemen Data (pengelolaan, pemrosesan, dan penyimpanan)
 - Ekstraksi Insight (analisis penyebab suatu fenomena dengan Diagnostic Analytics)
 - Teknik eksplorasi data (EDA) untuk ekstraksi insight
--🔹 Dataset Open-Source:
+
+🔹 Dataset Open-Source:
+
 ✅ [BMKG API](https://data.bmkg.go.id/prakiraan-cuaca/): Data prakiraan cuaca real-time di Indonesia
 ✅ [BMKG API](https://data.bmkg.go.id/gempabumi/): Data kejadian gempabumi yang terjadi di seluruh wilayah Indonesia
 ✅ [OpenWeatherMap API](https://openweathermap.org/api): Data cuaca real-time
--🔹 Indikator:
+
+🔹 Indikator:
   - Melakukan Manajemen Data dengan Hadoop HDFS dan SparkSQL
   - Melakukan membaca & memproses data dengan PySpark
   - Analisis dengan EDA hubungan faktor data cuaca dan data gempa
@@ -51,11 +57,14 @@ Praktikum ini terdiri dari **9 modul** dengan berbagai aspek penting dalam Anali
 - Arsitektur sistem Big Data (Hadoop, Hive, Spark, Kafka, SparkML, PySpark )
 - Siklus analitik data dalam Big Data
 - Distributed computing dan cloud computing untuk analitik
--🔹 Dataset Open-Source:
+  
+🔹 Dataset Open-Source:
+
 ✅ IoT Device with Sensor for Temperature and Humadity in ITERA
 ✅ [BMKG API](https://data.bmkg.go.id/prakiraan-cuaca/): Data prakiraan cuaca real-time di Indonesia
 ✅ [BMKG API](https://data.bmkg.go.id/gempabumi/): Data kejadian gempabumi yang terjadi di seluruh wilayah Indonesia
--🔹 Indikator:
+
+🔹 Indikator:
   - Membangun Arsitektur Big Data
  
 
@@ -64,11 +73,14 @@ Praktikum ini terdiri dari **9 modul** dengan berbagai aspek penting dalam Anali
 - Perumusan masalah bisnis dalam konteks Big Data, Bagaimana kita memanfaatkan Big Data untuk memprediksi tren bisnis?
 - Algoritma pemrosesan data skala besar, Algoritma apa yang efektif untuk menganalisis data skala besar?
 - Bagaimana analitik preskriptif dapat membantu dalam pengambilan keputusan strategis?
--🔹 Dataset Open-Source:
+
+🔹 Dataset Open-Source:
+
 ✅ [BBRI.JK Stock Data](https://www.kaggle.com/datasets/cgyputra/bbri-jk-stock-data): Historical Stock Prices of BBRI.JK (Bank BRI) – Daily Trading Data
 ✅ [BMKG API](https://data.bmkg.go.id/prakiraan-cuaca/): Data prakiraan cuaca real-time di Indonesia
 ✅ [BMKG API](https://data.bmkg.go.id/gempabumi/): Data kejadian gempabumi yang terjadi di seluruh wilayah Indonesia
--🔹 Indikator:
+
+🔹 Indikator:
   - Membangun model prediktif dengan SparkML dan PySpark
   - Menganalisis pola harga saham untuk keputusan investasi
   - Menerapkan analisis prediktif dan preskriptif dalam pengambilan keputusan bisnis
@@ -77,11 +89,14 @@ Praktikum ini terdiri dari **9 modul** dengan berbagai aspek penting dalam Anali
 - Teknik pengambilan data dari web (BeautifulSoup, Selenium, Scrapy)
 - Data preprocessing dalam Big Data (handling missing values, scaling, encoding, dsb.)
 - Visualisasi data skala besar (Matplotlib, Seaborn, Plotly, Power BI, Tableau)
--🔹 Dataset Open-Source:
+
+🔹 Dataset Open-Source:
+
 ✅ [Wikipedia API](https://wikimedia.org/api/rest_v1/): Data artikel Wikipedia
 ✅ [BMKG API](https://data.bmkg.go.id/prakiraan-cuaca/): Data prakiraan cuaca real-time di Indonesia
 ✅ [BMKG API](https://data.bmkg.go.id/gempabumi/): Data kejadian gempabumi yang terjadi di seluruh wilayah Indonesia
--🔹 Indikator:
+
+🔹 Indikator:
   - Melakukan Preprocessing Data termasuk handling missing values, scaling, encoding, dan teknik pembersihan data lainnya untuk meningkatkan kualitas data
   - Menyimpan dan Mengelola Data Skala Besar menggunakan Hadoop HDFS atau Apache Spark
   - Membuat Visualisasi Data Interaktif yang dideploy pada Streamlit untuk menggambarkan pola dan insight dari data Wikipedia
@@ -92,11 +107,14 @@ Praktikum ini terdiri dari **9 modul** dengan berbagai aspek penting dalam Anali
 - Implementasi Machine Learning dalam Big Data
 - Optimasi model menggunakan teknik distribusi (MLlib)
 - Model evaluasi dalam skala besar
--🔹 Dataset Open-Source:
+
+🔹 Dataset Open-Source:
+
 ✅ [HANDFUL project energy data](https://www.kaggle.com/datasets/plegmalabs/handful-project-energy-data) :High-granularity electricity consumption data from a food production facility
 ✅ [BMKG API](https://data.bmkg.go.id/prakiraan-cuaca/): Data prakiraan cuaca real-time di Indonesia
 ✅ [BMKG API](https://data.bmkg.go.id/gempabumi/): Data kejadian gempabumi yang terjadi di seluruh wilayah Indonesia
--🔹 Indikator:
+
+🔹 Indikator:
   - Mengimplementasikan Algoritma Machine Learning dalam lingkungan Big Data menggunakan Apache Spark MLlib atau PySpark
   - Melakukan Preprocessing Data seperti handling missing values, feature scaling, encoding, dan teknik pembersihan lainnya untuk meningkatkan kualitas model
   - Membangun Model Machine Learning seperti Regresi, Decision Tree, Random Forest, atau Gradient Boosting pada dataset HANDFUL project energy data
@@ -110,11 +128,14 @@ Praktikum ini terdiri dari **9 modul** dengan berbagai aspek penting dalam Anali
 - Model Deployment – Mengubah model machine learning menjadi API yang dapat diakses.
 - Scalability & Performance – Bagaimana model tetap efisien saat menangani banyak permintaan.
 - Monitoring & Maintenance – Bagaimana model diperbarui dan dipantau untuk mempertahankan performanya.
--🔹 Dataset Open-Source:
+
+🔹 Dataset Open-Source:
+
 ✅ IoT Device with Sensor for Temperature and Humadity in ITERA
 ✅ [BMKG API](https://data.bmkg.go.id/prakiraan-cuaca/): Data prakiraan cuaca real-time di Indonesia
 ✅ [BMKG API](https://data.bmkg.go.id/gempabumi/): Data kejadian gempabumi yang terjadi di seluruh wilayah Indonesia
--🔹 Indikator:
+
+🔹 Indikator:
   - Merancang data pipeline (Spark dan Kafka)
   - Model Deployment dengan FASTAPI
   - Menerapkan strategi A/B testing atau shadow deployment untuk validasi sebelum mengganti model lama
@@ -125,11 +146,14 @@ Praktikum ini terdiri dari **9 modul** dengan berbagai aspek penting dalam Anali
 - Python/PySpark untuk membuat fungsi hashing & enkripsi pada data sensitif.
 - Simulasi bagaimana data masking diterapkan di Hive/Spark untuk melindungi informasi pengguna.
 - Bandingkan metode enkripsi (AES, SHA256) dan terapkan pada pipeline Big Data.
--🔹 Dataset Open-Source:
+
+🔹 Dataset Open-Source:
+
 ✅ IoT Device with Sensor for Temperature and Humadity in ITERA
 ✅ [BMKG API](https://data.bmkg.go.id/prakiraan-cuaca/): Data prakiraan cuaca real-time di Indonesia
 ✅ [BMKG API](https://data.bmkg.go.id/gempabumi/): Data kejadian gempabumi yang terjadi di seluruh wilayah Indonesia
--🔹 Indikator:
+
+🔹 Indikator:
   - Memahami perbedaan antara Data Masking dan Enkripsi dalam Big Data.
   - Mengimplementasikan masking dengan teknik regex dalam Hive/PySpark.
   - Menerapkan enkripsi AES pada data sensitif sebelum penyimpanan di HDFS.
