@@ -10,9 +10,11 @@ Praktikum ini terdiri dari **9 modul** dengan berbagai aspek penting dalam Anali
 - Definisi dan karakteristik Big Data (Volume, Variety, Velocity, Veracity, Value)
 - Kompleksitas masalah dalam skala besar
 - Pengenalan alat dan platform Big Data
-- 🔹 Dataset Open-Source:
+  
+🔹 Dataset Open-Source:
 ✅ [NYC Taxi & Limousine Commission Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page): Data perjalanan taksi dari NYC
--🔹 Indikator: 
+
+🔹 Indikator: 
     - Eksplorasi skala besar dengan AWS Athena menggunakan SQL query.
     - Visualisasi distribusi data dalam S3 menggunakan EDA (Exploratory Data Analysis) melalui packaging python seperti pandas, seaborn, matplotlib, dan scipy.
 
@@ -21,11 +23,12 @@ Praktikum ini terdiri dari **9 modul** dengan berbagai aspek penting dalam Anali
 - Sumber data dalam Big Data (API, Web Scraping, Sensor Data, dll.)
 - Klasifikasi data: terstruktur, semi-terstruktur, dan tidak terstruktur
 - Pengelolaan dataset besar menggunakan Python (Pandas)
--🔹 Dataset Open-Source:
+
+🔹 Dataset Open-Source:
 ✅ [BMKG API](https://data.bmkg.go.id/prakiraan-cuaca/): Data prakiraan cuaca real-time di Indonesia
 ✅ [BMKG API](https://data.bmkg.go.id/gempabumi/):Data kejadian gempabumi yang terjadi di seluruh wilayah Indonesia
 ✅ [OpenWeatherMap API](https://openweathermap.org/api): Data cuaca real-time
--🔹 Indikator:
+🔹 Indikator:
   - Mengumpulkan dan mengklasifikasikan menggunakan Hadoop dan Hive
   - Melakukan eksplorasi dan klasifikasi data cuaca berdasarkan pola cuaca tertentu menggunakan metode statistik dasar dan visualisasi data (pandas dan matplotlib/seaborn)
   - Menjelaskan faktor penyebab perubahan cuaca ekstrem berdasarkan data historis (diagnostic)
