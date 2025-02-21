@@ -1,0 +1,263 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Root Variables for Colors */
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --accent-color: #2980b9;
+    --highlight-color: #4f46e5;
+    --background-color: #f4f7fc;
+    --text-color: #333;
+    --text-light-color: #555;
+}
+
+/* Body and General Styles */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 20px 40px;
+    color: #fff;
+}
+
+.navbar .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.navbar h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    color: var(--highlight-color);
+    transform: scale(1.1);
+}
+
+/* Hero Section */
+.hero {
+    background-color: var(--secondary-color);
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Deskripsi Section */
+.description {
+    background-color: #ecf0f1;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.description h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.description p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--text-light-color);
+}
+
+/* Modul Section */
+.module-structure {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.module-structure h2 {
+    font-size: 28px;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.module {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.3);
+}
+
+.module h3 {
+    font-size: 22px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.module ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.module ul li {
+    margin-bottom: 10px;
+}
+
+.module a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.module a:hover {
+    color: var(--highlight-color);
+    text-decoration: underline;
+}
+
+.module p {
+    font-size: 16px;
+    color: var(--text-light-color);
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--highlight-color);
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+    font-size: 20px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: var(--highlight-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar h1 {
+        font-size: 22px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .nav-links li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    .module-structure h2 {
+        font-size: 24px;
+    }
+
+    .module h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 20px 10px;
+    }
+
+    .hero h2 {
+        font-size: 26px;
+    }
+
+    .module-structure h2 {
+        font-size: 20px;
+    }
+
+    .module h3 {
+        font-size: 18px;
+    }
+
+    .module ul {
+        font-size: 14px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+}
