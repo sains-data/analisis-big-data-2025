@@ -1,0 +1,247 @@
+<!DOCTYPE html>  
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Analisis Big Data 2025</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="Logo_ITERA.png" alt="Logo ITERA" class="logo">
+            <img src="LOGO PRODI SD.png" alt="Logo Prodi" class="logo">
+            <h1>Praktikum Analisis Big Data 2025</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Modul</a></li>
+            <li><a href="https://docs.google.com/spreadsheets/d/1M_FvnjPrOaa55HpawCHs1uzsoWCLIC1i5B8yoX8eF2M/edit?usp=sharing">Info</a></li>
+            <li><a href="https://github.com/sains-data/analisis-big-data-2025">Repositori</a></li>
+            <li><a href="https://1drv.ms/f/s!AnsimFE4lIw-qdx2sxvgtiux5IOfug?e=q1Pjxh">Account AWS</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h2>Selamat Datang di Praktikum Analisis Big Data 2025</h2>
+        <p>Jelajahi modul dan materi yang tersedia untuk memperdalam pemahaman tentang Big Data.</p>
+    </header>
+
+    <!-- Deskripsi -->
+    <section class="description">
+        <h2>📌 Deskripsi</h2>
+        <p>
+            Repositori ini berisi Laporan dan hasil praktikum dari mata kuliah <strong>SD4204 Analisis Big Data</strong> 
+            yang diselenggarakan oleh <strong>Program Studi Sains Data, Institut Teknologi Sumatera (ITERA)</strong>. 
+            Praktikum ini dirancang untuk memberikan pemahaman mendalam tentang konsep, teknik, dan implementasi dalam analisis Big Data, mulai dari pengumpulan data hingga penerapan model pembelajaran mesin.
+        </p>
+    </section>
+
+    <!-- Struktur Modul -->
+    <section class="module-structure">
+        <h2>📚 Struktur Modul</h2>
+        <p>Praktikum ini terdiri dari 9 modul dengan berbagai aspek penting dalam Analisis Big Data:</p>
+
+        <div class="module">
+            <h3>📌 Modul 1: Pengantar Big Data & Kompleksitas Masalah (Descriptive Analytics)</h3>
+            <ul>
+                <li>Definisi dan karakteristik Big Data (Volume, Variety, Velocity, Veracity, Value)</li>
+                <li>Kompleksitas masalah dalam skala besar</li>
+                <li>Pengenalan alat dan platform Big Data</li>
+            </ul>
+            <p>📚 Dataset Open-Source:</p>
+            <ul>
+                <li>✅ <a href="https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page">NYC Taxi & Limousine Commission Data</a></li>
+            </ul>
+            <p>💊 Indikator:</p>
+            <ul>
+                <li>Eksplorasi skala besar dengan AWS Athena menggunakan SQL query.</li>
+                <li>Visualisasi distribusi data dalam S3 menggunakan EDA (Exploratory Data Analysis) melalui packaging python seperti pandas, seaborn, matplotlib, dan scipy.</li>
+            </ul>
+        </div>
+
+        <div class="module">
+            <h3>📌 Modul 2: Koleksi & Klasifikasi Data (Descriptive & Diagnostic Analytics)</h3>
+            <ul>
+                <li>Sumber data dalam Big Data (API, Web Scraping, Sensor Data, dll.)</li>
+                <li>Klasifikasi data: terstruktur, semi-terstruktur, dan tidak terstruktur</li>
+                <li>Pengelolaan dataset besar menggunakan Python (Pandas)</li>
+            </ul>
+            <p>📚 Dataset Open-Source:</p>
+            <ul>
+                <li>✅ <a href="https://data.bmkg.go.id/prakiraan-cuaca/">BMKG API (Prakiraan Cuaca)</a></li>
+                <li>✅ <a href="https://data.bmkg.go.id/gempabumi/">BMKG API (Gempabumi)</a></li>
+                <li>✅ <a href="https://openweathermap.org/api">OpenWeatherMap API</a></li>
+            </ul>
+            <p>💊 Indikator:</p>
+            <ul>
+                <li>Mengumpulkan dan mengklasifikasikan data dengan Hadoop dan Hive.</li>
+                <li>Melakukan eksplorasi dan klasifikasi data cuaca berdasarkan pola cuaca tertentu menggunakan metode statistik dasar dan visualisasi data (pandas dan matplotlib/seaborn)</li>
+                <li>Menjelaskan faktor penyebab perubahan cuaca ekstrem berdasarkan data historis (diagnostic)</li>
+            </ul>
+        </div>
+        <div class="module">
+            <h3>📌 Modul 3: Manajemen Data & Ekstraksi Insight (Diagnostic Analytics)</h3>
+            <ul>
+                <li>Manajemen Data (pengelolaan, pemrosesan, dan penyimpanan)</li>
+                <li>Ekstraksi Insight (analisis penyebab suatu fenomena dengan Diagnostic Analytics)</li>
+                <li>Teknik eksplorasi data (EDA) untuk ekstraksi insight</li>
+            </ul>
+            <p>📚 Dataset Open-Source:</p>
+            <ul>
+                <li>✅ <a href="https://data.bmkg.go.id/prakiraan-cuaca/">BMKG API (Prakiraan Cuaca)</a></li>
+                <li>✅ <a href="https://data.bmkg.go.id/gempabumi/">BMKG API (Gempabumi)</a></li>
+                <li>✅ <a href="https://openweathermap.org/api">OpenWeatherMap API</a></li>
+            </ul>
+            <p>💊 Indikator:</p>
+            <ul>
+                <li>Melakukan Manajemen Data dengan Hadoop HDFS dan SparkSQL.</li>
+                <li>Membaca & memproses data dengan PySpark.</li>
+                <li>Analisis dengan EDA hubungan faktor data cuaca dan data gempa.</li>
+            </ul>
+        </div>
+        
+        <div class="module">
+            <h3>📌 Modul 4: Arsitektur Big Data & Siklus Analitik (Prescriptive Analytics)</h3>
+            <ul>
+                <li>Arsitektur sistem Big Data (Hadoop, Hive, Spark, Kafka, SparkML, PySpark)</li>
+                <li>Siklus analitik data dalam Big Data</li>
+                <li>Distributed computing dan cloud computing untuk analitik</li>
+            </ul>
+            <p>📚 Dataset Open-Source:</p>
+            <ul>
+                <li>✅ IoT Device with Sensor for Temperature and Humidity in ITERA</li>
+                <li>✅ <a href="https://data.bmkg.go.id/prakiraan-cuaca/">BMKG API (Prakiraan Cuaca)</a></li>
+                <li>✅ <a href="https://data.bmkg.go.id/gempabumi/">BMKG API (Gempabumi)</a></li>
+            </ul>
+            <p>💊 Indikator:</p>
+            <ul>
+                <li>Membangun Arsitektur Big Data.</li>
+            </ul>
+        </div>
+        
+        <div class="module">
+            <h3>📌 Modul 5: Business Understanding & Algoritma Big Data (Predictive & Prescriptive Analytics)</h3>
+            <ul>
+                <li>Perumusan masalah bisnis dalam konteks Big Data, Bagaimana kita memanfaatkan Big Data untuk memprediksi tren bisnis?</li>
+                <li>Algoritma pemrosesan data skala besar, Algoritma apa yang efektif untuk menganalisis data skala besar?</li>
+                <li>Bagaimana analitik preskriptif dapat membantu dalam pengambilan keputusan strategis?</li>
+            </ul>
+            <p>📚 Dataset Open-Source:</p>
+            <ul>
+                <li>✅ <a href="https://www.kaggle.com/datasets/cgyputra/bbri-jk-stock-data">BBRI.JK Stock Data</a></li>
+                <li>✅ <a href="https://data.bmkg.go.id/prakiraan-cuaca/">BMKG API (Prakiraan Cuaca)</a></li>
+                <li>✅ <a href="https://data.bmkg.go.id/gempabumi/">BMKG API (Gempabumi)</a></li>
+            </ul>
+            <p>💊 Indikator:</p>
+            <ul>
+                <li>Membangun model prediktif dengan SparkML dan PySpark.</li>
+                <li>Menganalisis pola harga saham untuk keputusan investasi.</li>
+                <li>Menerapkan analisis prediktif dan preskriptif dalam pengambilan keputusan bisnis.</li>
+            </ul>
+        </div>
+        
+        <div class="module">
+            <h3>📌 Modul 6: Web Scraping, Preprocessing & Visualisasi Big Data (Cognitive Analytics)</h3>
+            <ul>
+                <li>Teknik pengambilan data dari web (BeautifulSoup, Selenium, Scrapy)</li>
+                <li>Data preprocessing dalam Big Data (handling missing values, scaling, encoding, dsb.)</li>
+                <li>Visualisasi data skala besar (Matplotlib, Seaborn, Plotly, Power BI, Tableau)</li>
+            </ul>
+            <p>📚 Dataset Open-Source:</p>
+            <ul>
+                <li>✅ <a href="https://wikimedia.org/api/rest_v1/">Wikipedia API</a> (Data artikel Wikipedia)</li>
+                <li>✅ <a href="https://data.bmkg.go.id/prakiraan-cuaca/">BMKG API (Prakiraan Cuaca)</a></li>
+                <li>✅ <a href="https://data.bmkg.go.id/gempabumi/">BMKG API (Gempabumi)</a></li>
+            </ul>
+            <p>💊 Indikator:</p>
+            <ul>
+                <li>Melakukan Preprocessing Data termasuk handling missing values, scaling, encoding, dan teknik pembersihan data lainnya untuk meningkatkan kualitas data.</li>
+                <li>Menyimpan dan Mengelola Data Skala Besar menggunakan Hadoop HDFS atau Apache Spark.</li>
+                <li>Membuat Visualisasi Data Interaktif yang dideploy pada Streamlit untuk menggambarkan pola dan insight dari data Wikipedia.</li>
+                <li>Menganalisis tren dari data Wikipedia dan menarik kesimpulan berbasis data dengan pendekatan Cognitive Analytics.</li>
+            </ul>
+        </div>
+        
+        <div class="module">
+            <h3>📌 Modul 7: Pembelajaran Mesin dalam Big Data (Predictive & Cognitive Analytics)</h3>
+            <ul>
+                <li>Implementasi Machine Learning dalam Big Data</li>
+                <li>Optimasi model menggunakan teknik distribusi (MLlib)</li>
+                <li>Model evaluasi dalam skala besar</li>
+            </ul>
+            <p>📚 Dataset Open-Source:</p>
+            <ul>
+                <li>✅ <a href="https://www.kaggle.com/datasets/plegmalabs/handful-project-energy-data">HANDFUL project energy data</a></li>
+                <li>✅ <a href="https://data.bmkg.go.id/prakiraan-cuaca/">BMKG API (Prakiraan Cuaca)</a></li>
+                <li>✅ <a href="https://data.bmkg.go.id/gempabumi/">BMKG API (Gempabumi)</a></li>
+            </ul>
+            <p>💊 Indikator:</p>
+            <ul>
+                <li>Mengimplementasikan Algoritma Machine Learning menggunakan Apache Spark MLlib atau PySpark.</li>
+                <li>Melakukan Preprocessing Data seperti handling missing values, feature scaling, encoding, dan teknik pembersihan lainnya untuk meningkatkan kualitas model.</li>
+                <li>Membangun Model Machine Learning seperti Regresi, Decision Tree, Random Forest, atau Gradient Boosting pada dataset HANDFUL project energy data.</li>
+                <li>Menggunakan Teknik Distribusi untuk pelatihan model dalam skala besar menggunakan Apache Spark MLlib.</li>
+                <li>Melakukan Evaluasi Model dalam Skala Besar dengan metrik evaluasi seperti RMSE, MSE, R², Precision, Recall, dan F1-score.</li>
+                <li>Mengoptimalkan Model dengan hyperparameter tuning dan teknik distribusi untuk meningkatkan performa prediksi.</li>
+                <li>Menganalisis dan Menginterpretasikan Hasil Model serta memberikan insight berbasis Predictive & Cognitive Analytics.</li>
+            </ul>
+        </div>
+        
+        <div class="module">
+            <h3>📌 Modul 8: Pengolahan Big Data dan Deploying Model (Prescriptive Analytics)</h3>
+            <ul>
+                <li>End-to-End Data Pipeline (Bagaimana data mengalir dari sumber (dataset sebelumnya) hingga siap digunakan untuk model prediksi).</li>
+                <li>Model Deployment (Mengubah model machine learning menjadi API yang dapat diakses)</li>
+                <li>Scalability & Performance (Bagaimana model tetap efisien saat menangani banyak permintaan)</li>
+                <li>Monitoring & Maintenance (Bagaimana model diperbarui dan dipantau untuk mempertahankan performanya)</li>
+            </ul>
+            <p>📚 Dataset Open-Source:</p>
+            <ul>
+                <li>✅ IoT Device with Sensor for Temperature and Humidity in ITERA</li>
+                <li>✅ <a href="https://data.bmkg.go.id/prakiraan-cuaca/">BMKG API (Prakiraan Cuaca)</a></li>
+                <li>✅ <a href="https://data.bmkg.go.id/gempabumi/">BMKG API (Gempabumi)</a></li>
+            </ul>
+            <p>💊 Indikator:</p>
+            <ul>
+                <li>Merancang data pipeline menggunakan Spark dan Kafka.</li>
+                <li>Model Deployment dengan FASTAPI.</li>
+                <li>Menerapkan strategi A/B testing atau shadow deployment untuk validasi sebelum mengganti model lama.</li>
+                <li>Testing dan Monitoring Model.</li>
+            </ul>
+        </div>
+        
+        <div class="module">
+            <h3>📌 Modul 9: Post-Big Data & Keamanan Big Data</h3>
+            <ul>
+                <li>Python/PySpark untuk hashing & enkripsi pada data sensitif.</li>
+                <li>Simulasi bagaimana data masking diterapkan di Hive/Spark untuk melindungi informasi pengguna.</li>
+                <li>Bandingkan metode enkripsi (AES, SHA256) dan terapkan pada pipeline Big Data.</li>
+            </ul>
+            <p>📚 Dataset Open-Source:</p>
+            <ul>
+                <li>✅ IoT Device with Sensor for Temperature and Humidity in ITERA</li>
+                <li>✅ <a href="https://data.bmkg.go.id/prakiraan-cuaca/">BMKG API (Prakiraan Cuaca)</a></li>
+                <li>✅ <a href="https://data.bmkg.go.id/gempabumi/">BMKG API (Gempabumi)</a></li>
+            </ul>
+            <p>💊 Indikator:</p>
+            <ul>
+                <li>- Memahami perbedaan antara Data Masking dan Enkripsi dalam Big Data.</li>
+                <li>- Mengimplementasikan masking dengan regex dalam Hive/PySpark.</li>
+                <li>- Menerapkan enkripsi AES pada data sensitif sebelum penyimpanan di HDFS.</li>
+                <li>- Membuat pipeline data yang mengamankan informasi sensitif dalam sistem Big Data.</li>
+                <li>- Menjelaskan bagaimana masking dan enkripsi dapat memenuhi regulasi di Indonesia</li>
+            </ul>
+        </div>
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Program Studi Sains Data, ITERA.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
